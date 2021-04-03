@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',mainPage),
     path('getdata',getData),
+    path('getreddit',getReddit),
+    path('getrequest',checkRequest),
 ]
